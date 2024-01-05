@@ -1,0 +1,7 @@
+Valores = input().split()
+A, B, C = float(Valores[0]), float(Valores[1]), float(Valores[2])
+print('TRIANGULO: {:.3f}'.format(A * C / 2))
+print('CIRCULO: {:.3f}'.format(C ** 2 * 3.14159))
+print('TRAPEZIO: {:.3f}'.format((A + B) * C / 2))
+print('QUADRADO: {:.3f}'.format(B ** 2))
+print('RETANGULO: {:.3f}'.format(A * B))
